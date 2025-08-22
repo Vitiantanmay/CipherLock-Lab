@@ -1,0 +1,5 @@
+{
+  "name": "CipherLock Lab",
+  "description": "An interactive web application for learning about digital locks, logic gates, and simple ciphers in a fun, futuristic environment.",
+  "requestFramePermissions": []
+}
