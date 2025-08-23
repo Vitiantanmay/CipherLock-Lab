@@ -15,6 +15,9 @@ const HomePage: React.FC = () => {
       <p className="text-lg md:text-xl text-white/70 max-w-2xl mb-12">
         Learn digital locks, logic gates, and ciphers interactively.
       </p>
+      <p className="text-lg md:text-xl text-white/70 max-w-2xl mb-12">
+        By- Tanmay Galav
+      </p>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-4xl">
         <LinkButton to="/lock">Digital Lock</LinkButton>
         <LinkButton to="/gates">Logic Gates</LinkButton>
