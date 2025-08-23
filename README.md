@@ -1,49 +1,20 @@
-# 🔐 CipherLock Lab  
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-> *Unlock the future of learning digital security & logic.*  
+# Run and deploy your AI Studio app
 
-CipherLock Lab is an **interactive, hypermodern web app** where you can explore **digital locks, logic gates, and classic ciphers** — all in one place.  
-Designed with a **pitch-black retro-futuristic theme**, it blends **hands-on learning** with a **sleek UI** to make security and electronics fun.  
+This contains everything you need to run your app locally.
 
----
+View your app in AI Studio: https://ai.studio/apps/drive/1fzy5jOEYLFVp116lUepLvCKEuAHTif01
 
-## ✨ Features  
+## Run Locally
 
-### 🔢 4-Bit Digital Lock  
-- Play with lock combinations.  
-- Watch a **brute-force attack** in action.  
-- Understand how digital locks work step by step.  
+**Prerequisites:**  Node.js
 
-### ⚡ Logic Gate Trainer  
-- Experiment with **AND, OR, XOR, NOT** gates.  
-- Set inputs, toggle switches, and instantly see outputs.  
-- A fun, minimal way to learn digital logic basics.  
 
-### 🔒 Cipher Playground  
-- Encrypt & decrypt text using:  
-  - Caesar Cipher  
-  - XOR Cipher  
-- Visualize how simple ciphers transform text.  
-
-### 🎨 Hypermodern Design  
-- **Pitch-black theme** with subtle white contrasts.  
-- **Sleek monospace fonts** for a futuristic feel.  
-- **Responsive** across desktop & mobile.  
-- Optional **Three.js 3D visuals** for extra polish.  
-
----
-
-## 🛠️ Tech Stack  
-
-- ⚛️ **React + TypeScript + Vite**  
-- 🎨 **TailwindCSS** for styling  
-- 🧩 **Three.js** (for optional 3D visuals)  
-
----
-
-## 🚀 Getting Started  
-
-### 1️⃣ Clone the repo  
-```bash
-git clone https://github.com/your-username/cipherlock-lab.git
-cd cipherlock-lab
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
