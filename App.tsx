@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import HomePage from './pages/HomePage';
@@ -10,7 +9,7 @@ import Header from './components/Header';
 function App(): React.ReactNode {
   return (
     <HashRouter>
-      <div className="bg-black text-white min-h-screen font-['Orbitron'] antialiased">
+      <div className="bg-transparent text-white min-h-screen font-['Share_Tech_Mono'] antialiased">
         <Header />
         <main className="p-4 md:p-8">
           <Routes>
